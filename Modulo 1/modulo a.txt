@@ -1,0 +1,19 @@
+javascript modulo A
+*******************
+-> window.alert 
+	- : Esse método exibe uma caixa de diálogo modal com uma mensagem e um botão "OK". Ele é frequentemente usado para exibir mensagens de aviso ou informações para o usuário. Por exemplo:
+	window.alert("Olá! Bem-vindo ao meu site.");
+
+-> window.confirm 
+	- Esse método exibe uma caixa de diálogo modal com uma mensagem e dois botões: "OK" e "Cancelar". Ele é usado para solicitar uma confirmação do usuário. O método retorna true se o usuário clicar em "OK" e false se o usuário clicar em "Cancelar". Por exemplo:
+	var resposta = window.confirm("Você deseja realmente excluir esse item?");
+	if (resposta) {
+  	// Código para excluir o item
+	} else {
+	  // Código para cancelar a exclusão
+	}
+
+-> window.prompt/pergunta 
+	- window.prompt (ou pergunta): Esse método exibe uma caixa de diálogo modal com uma mensagem e um campo de entrada de texto. Ele é usado para solicitar uma entrada de dados do usuário. O método retorna o valor inserido pelo usuário como uma string. Por exemplo:
+var nome = window.prompt("Qual é o seu nome?");
+console.log("Olá, " + nome + "! Bem-vindo ao meu site.");

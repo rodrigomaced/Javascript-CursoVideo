@@ -1,0 +1,22 @@
+Modul B
+Nome para cada variavel para indentificadores
+regras
+*podem começar com letras, simbolos e numeros 
+*não podem começar com numeros 
+*É possivel usar letras ou numeros 
+*É possivel usar acentos e simbolos 
+*nao podem conter espaços 
+*não pode ser palvaras reservadas 
+//Tipos dados
+ *typeof 
+1-Number
+-Infinity
+-NaN
+2-String
+3-Boolean
+4-Null
+5-Underfined
+6-Object
+-Array
+7-Function
+
